@@ -17,7 +17,7 @@ public class RemoteControl {
 	    }
 	     
 	    public void clickOffButon(){
-	          device.turnOn();
+	          device.turnOff();;
 	 
 	    }
 	     

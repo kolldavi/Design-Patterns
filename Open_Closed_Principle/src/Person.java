@@ -16,6 +16,7 @@ public class Person {
         remoteControl.connectToDevice(niceLargeScreenTV);
         remoteControl.clickOnButon();
         remoteControl.clickOffButon();
+
 	}
 
 }
