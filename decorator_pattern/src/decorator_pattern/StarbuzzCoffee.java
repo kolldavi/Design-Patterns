@@ -16,7 +16,7 @@ public class StarbuzzCoffee {
 		beverage2 = new Whip(beverage2);
 		System.out.printf(beverage2.getDescription() +"$%.2f\n", + beverage2.cost());
 		Beverage beverage3 = new HouseBlend();
-		beverage3.setSize(Size.VENTIE);
+		beverage3.setSize(Size.GRANDEE);
 		beverage3 = new Soy(beverage3);
 		beverage3 = new Mocha(beverage3);
 		beverage3 = new Whip(beverage3);

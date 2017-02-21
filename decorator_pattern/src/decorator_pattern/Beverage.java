@@ -5,7 +5,7 @@ public abstract class Beverage {
 	    TALL, GRANDEE, VENTIE 
 	}
 	String description = "Unknown Beverage";
-	Size size;
+	Size size = Size.TALL;
 	
 	public String getDescription(){
 		return description;
